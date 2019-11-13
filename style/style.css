@@ -5,6 +5,7 @@ header {
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
+  margin: 0;
 }
 
 header video {
@@ -20,11 +21,13 @@ header video {
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
+  margin: 0;
 }
 
 header .container {
   position: relative;
   z-index: 2;
+  margin: 0;
 }
 
 header .overlay {
@@ -47,8 +50,7 @@ header .overlay {
   }
 }
 li img{
-  max-width: 160px;
-}
+  max-width: 18vw;}
 li{
   text-decoration: none;
 }
@@ -60,6 +62,7 @@ li{
 .list-group{
   padding: 2vw;
 width: 75vw;
+
 }
 ul {
 
@@ -85,6 +88,7 @@ padding: 0;
 }
 .d-flex{
   width: 100vw;
+  margin: 0;
 }
 #logo {
   display: flex;
@@ -92,5 +96,6 @@ padding: 0;
   width: 10vw;
   position: relative;
   margin: auto;
+  margin-top: 0;
 
 }
