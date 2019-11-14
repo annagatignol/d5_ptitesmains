@@ -50,7 +50,8 @@ header .overlay {
   }
 }
 li img{
-  max-width: 18vw;}
+  max-width: 18vw;
+min-width: 10vw;}
 li{
   text-decoration: none;
 }
@@ -80,6 +81,7 @@ ul {
 .h-100{
   margin: 0;
   width:100vw;
+  padding-top: 20vh;
 }
 .container {
 margin: 0;
